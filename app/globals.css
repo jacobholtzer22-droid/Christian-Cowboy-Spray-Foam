@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Palette, radii, shadows, and the section rule are injected as CSS variables
+   by app/layout.tsx from theme.ts. Fonts come from app/fonts.ts. */
+
+@layer base {
+  html {
+    /* 16px base; the type scale is built on it. */
+    font-size: 100%;
+    /* The page ground is light; the dark bands set their own colors explicitly,
+       so native controls and scrollbars should follow the light ground. */
+    color-scheme: light;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-bg font-body text-ink-soft antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading text-ink;
+  }
+  :focus-visible {
+    outline: 2px solid var(--c-accent);
+    outline-offset: 2px;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+}
+
+@layer utilities {
+  /* Emphasised words in display lines. Decorative only; the words stay real
+     text. --spectrum is a flat accent on this site, so this paints solid. */
+  .text-spectrum {
+    background-image: var(--spectrum);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  /* The 2px rule across the top of sections. */
+  .strip-spectrum {
+    height: 2px;
+    background-image: var(--spectrum);
+  }
+}
+
+/* Reduced motion: everything resolves to its final state immediately. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

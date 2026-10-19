@@ -1,0 +1,46 @@
+{
+  "stock-closed-cell-foam-wall-studs.jpg": {
+    "width": 2400,
+    "height": 1800,
+    "alt": "Spray foam insulation filling the wall cavities between studs and around two window openings",
+    "base": "stock-closed-cell-foam-wall-studs",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "stock-fiberglass-batts-wall-studs.jpg": {
+    "width": 2400,
+    "height": 1602,
+    "alt": "Pink fiberglass batt insulation fitted between wooden wall studs while an installer presses a batt into place",
+    "base": "stock-fiberglass-batts-wall-studs",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "stock-open-cell-foam-framing.jpg": {
+    "width": 2400,
+    "height": 1800,
+    "alt": "Pale cream open cell spray foam expanded across a ceiling cavity around timber framing and conduit",
+    "base": "stock-open-cell-foam-framing",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "stock-spray-foam-ceiling-joists.jpg": {
+    "width": 2400,
+    "height": 3200,
+    "alt": "Spray foam applied between ceiling joists and wall studs in a stripped back room during renovation",
+    "base": "stock-spray-foam-ceiling-joists",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  }
+}
