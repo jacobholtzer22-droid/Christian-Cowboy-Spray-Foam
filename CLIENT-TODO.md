@@ -6,13 +6,16 @@ rather than filling it. One line each, no answers.
 
 ## Photos
 
-- Can you send job photos from the last five years? Attics, walls, crawlspaces, metal buildings, before and after. Every photo on the site right now is licensed stock, not your work.
+- Can you send these same photos straight from your phone's photo library rather than as screenshots? Screenshots are about a third of the real resolution, and the full size versions would look sharper on a big screen.
+- Do you have a photo of a batt insulation job? That is the one service page still using a stock photo.
+- Do you have a photo of an insulation removal job, ideally old or damaged material before it came out? That is the other stock photo still on the site.
+- Any before and after pairs? Those are the strongest thing you can put on a page like this and you do not have one yet.
 
 ## Before the site can go live
 
 - What is the real platform business slug? The contact form currently posts with a placeholder and no lead would reach you.
 - Do you want to register cowboysprayfoam.com, or a different domain?
-- Do you have a logo as a transparent PNG or SVG, or is there no logo yet?
+- Do you have the logo from the truck as a transparent PNG or SVG? We can see the cowboy hat mark on the box truck in your photos, but a photo of a truck is not usable as a site logo. The header shows the name as text until that file arrives.
 
 ## About the business
 

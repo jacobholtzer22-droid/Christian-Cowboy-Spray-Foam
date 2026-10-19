@@ -57,7 +57,7 @@ const config: SiteConfigInput = {
         'Light, expanding foam that air seals and insulates in one pass. Common in attics, interior walls, and ceilings.',
       priceFrom: null,
       priceNote: 'quoted after a free inspection',
-      image: 'stock-open-cell-foam-framing.jpg',
+      image: 'installer-trimming-foam-wall.jpg',
       faqs: [
         {
           q: 'Should I use open cell or closed cell in my attic?',
@@ -92,7 +92,7 @@ const config: SiteConfigInput = {
         'Dense, rigid foam that resists moisture and stiffens the assembly. Common on metal buildings, crawlspaces, and rim joists.',
       priceFrom: null,
       priceNote: 'quoted after a free inspection',
-      image: 'stock-closed-cell-foam-wall-studs.jpg',
+      image: 'finished-foam-shop-ceiling.jpg',
       faqs: [
         {
           q: 'Why would I pick closed cell over open cell?',
@@ -123,7 +123,7 @@ const config: SiteConfigInput = {
         'Loose-fill insulation blown into an attic with a hose, filling in around framing, ducts, and wiring.',
       priceFrom: null,
       priceNote: 'quoted after a free inspection',
-      image: null,
+      image: 'attic-blown-in-fiberglass.jpg',
       faqs: [
         {
           q: 'Can you add blown-in insulation on top of what I already have?',
@@ -454,7 +454,7 @@ const config: SiteConfigInput = {
         description: 'Light, expanding, quiet',
         body: 'Open cell foam expands a long way, so it reaches into the gaps and seals them as it insulates. It is lighter and more flexible than closed cell, and it is the better of the two at quieting a house.',
         bestFor: ['Attics', 'Interior walls', 'Ceilings', 'Sound control between rooms'],
-        image: 'stock-open-cell-foam-framing.jpg',
+        image: 'installer-spraying-foam-garage-wall.jpg',
       },
       {
         key: 'closed-cell',
@@ -462,7 +462,7 @@ const config: SiteConfigInput = {
         description: 'Dense, rigid, moisture resistant',
         body: 'Closed cell foam is dense and rigid. It resists moisture, acts as a vapor retarder, and gives roughly twice the insulation per inch, which is what makes it the answer where depth is limited.',
         bestFor: ['Metal buildings', 'Crawlspaces', 'Rim joists', 'Basement walls', 'Exterior walls'],
-        image: 'stock-closed-cell-foam-wall-studs.jpg',
+        image: 'closed-cell-metal-building-roof.jpg',
       },
       {
         key: 'blown-in',
@@ -470,15 +470,28 @@ const config: SiteConfigInput = {
         description: 'Loose fill, blown through a hose',
         body: 'Blown-in insulation is loose fill laid over and around the framing in an attic with a hose. It gets into the irregular spaces and is the usual way to bring a thin or settled attic back up to depth.',
         bestFor: ['Topping up an attic', 'Filling irregular spaces', 'Budget attic upgrades'],
-        image: null,
+        // The wide crop, so the full-bleed stage has a sharp source. The
+        // service page uses the taller frame, which keeps the rafters in shot.
+        image: 'attic-blown-in-loose-fill.jpg',
       },
     ],
   },
 
   images: {
-    hero: 'stock-open-cell-foam-framing.jpg',
-    about: null,
-    gallery: [],
+    hero: 'hero-foam-shop-ceiling.jpg',
+    about: 'cowboy-spray-foam-truck-wrap.jpg',
+    /**
+     * Finished jobs, shown on the homepage. These are the client's own
+     * photographs; nothing from a stock library goes in here.
+     */
+    gallery: [
+      'closed-cell-warehouse-wall.jpg',
+      'finished-foam-barn-interior.jpg',
+      'installer-scaffold-barn-roof.jpg',
+      'foam-carport-metal-roof.jpg',
+      'installer-on-stilts-spraying-ceiling.jpg',
+      'foam-ceiling-metal-walls-stairs.jpg',
+    ],
     heroVideo: null,
   },
 

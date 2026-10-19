@@ -1,13 +1,141 @@
 {
-  "stock-closed-cell-foam-wall-studs.jpg": {
-    "width": 2400,
-    "height": 1800,
-    "alt": "Spray foam insulation filling the wall cavities between studs and around two window openings",
-    "base": "stock-closed-cell-foam-wall-studs",
+  "attic-blown-in-fiberglass.jpg": {
+    "width": 745,
+    "height": 1500,
+    "alt": "Loose fill fiberglass insulation blown deep across an attic floor beneath dark timber roof rafters",
+    "base": "attic-blown-in-fiberglass",
+    "sizes": [
+      640
+    ]
+  },
+  "attic-blown-in-loose-fill.jpg": {
+    "width": 1320,
+    "height": 1147,
+    "alt": "Deep loose fill fiberglass insulation lying across an attic floor, lit from one side",
+    "base": "attic-blown-in-loose-fill",
     "sizes": [
       640,
-      1024,
-      1920
+      1024
+    ]
+  },
+  "closed-cell-metal-building-roof.jpg": {
+    "width": 1320,
+    "height": 2347,
+    "alt": "White foam covering the roof deck and purlins of a metal building above red painted steel framing",
+    "base": "closed-cell-metal-building-roof",
+    "sizes": [
+      640,
+      1024
+    ]
+  },
+  "closed-cell-warehouse-wall.jpg": {
+    "width": 1320,
+    "height": 2347,
+    "alt": "Foam insulation on a tall warehouse wall beside a scissor lift and roll up door",
+    "base": "closed-cell-warehouse-wall",
+    "sizes": [
+      640,
+      1024
+    ]
+  },
+  "cowboy-spray-foam-truck-wrap.jpg": {
+    "width": 1320,
+    "height": 1760,
+    "alt": "Company box truck wrap showing a cowboy hat mark above spray foam insulation services lettering",
+    "base": "cowboy-spray-foam-truck-wrap",
+    "sizes": [
+      640,
+      1024
+    ]
+  },
+  "finished-foam-barn-interior.jpg": {
+    "width": 1320,
+    "height": 1760,
+    "alt": "Completed white foam lining the gable ceiling and walls of a metal barn with ladders standing inside",
+    "base": "finished-foam-barn-interior",
+    "sizes": [
+      640,
+      1024
+    ]
+  },
+  "finished-foam-shop-ceiling.jpg": {
+    "width": 1320,
+    "height": 1760,
+    "alt": "Finished foam across the ceiling and walls of a metal shop with a roll up door and concrete floor",
+    "base": "finished-foam-shop-ceiling",
+    "sizes": [
+      640,
+      1024
+    ]
+  },
+  "foam-carport-metal-roof.jpg": {
+    "width": 1320,
+    "height": 1760,
+    "alt": "Thick foam applied to the underside of a covered patio roof above a pool table and storage area",
+    "base": "foam-carport-metal-roof",
+    "sizes": [
+      640,
+      1024
+    ]
+  },
+  "foam-ceiling-metal-walls-stairs.jpg": {
+    "width": 1320,
+    "height": 2347,
+    "alt": "Sprayed foam ceiling above metal wall panels with a timber stair and landing beam in the foreground",
+    "base": "foam-ceiling-metal-walls-stairs",
+    "sizes": [
+      640,
+      1024
+    ]
+  },
+  "hero-foam-shop-ceiling.jpg": {
+    "width": 1320,
+    "height": 743,
+    "alt": "Sprayed foam covering the ceiling panels and purlins of a metal building, lights set into the deck",
+    "base": "hero-foam-shop-ceiling",
+    "sizes": [
+      640,
+      1024
+    ]
+  },
+  "installer-on-stilts-spraying-ceiling.jpg": {
+    "width": 1320,
+    "height": 2347,
+    "alt": "Installer working on stilts spraying foam into the ceiling of a small timber framed room",
+    "base": "installer-on-stilts-spraying-ceiling",
+    "sizes": [
+      640,
+      1024
+    ]
+  },
+  "installer-scaffold-barn-roof.jpg": {
+    "width": 1320,
+    "height": 2347,
+    "alt": "Installer on a scaffold tower spraying foam onto the underside of a barn roof, open field behind",
+    "base": "installer-scaffold-barn-roof",
+    "sizes": [
+      640,
+      1024
+    ]
+  },
+  "installer-spraying-foam-garage-wall.jpg": {
+    "width": 1320,
+    "height": 2347,
+    "alt": "Installer in a blue suit and respirator spraying white foam across a wall under exposed floor joists",
+    "base": "installer-spraying-foam-garage-wall",
+    "sizes": [
+      640,
+      1024
+    ]
+  },
+  "installer-trimming-foam-wall.jpg": {
+    "width": 1320,
+    "height": 2347,
+    "alt": "Worker trimming cured spray foam flush with the studs using a long blade on a timber framed wall",
+    "base": "installer-trimming-foam-wall",
+    "sizes": [
+      640,
+      1024
     ]
   },
   "stock-fiberglass-batts-wall-studs.jpg": {
@@ -15,17 +143,6 @@
     "height": 1602,
     "alt": "Pink fiberglass batt insulation fitted between wooden wall studs while an installer presses a batt into place",
     "base": "stock-fiberglass-batts-wall-studs",
-    "sizes": [
-      640,
-      1024,
-      1920
-    ]
-  },
-  "stock-open-cell-foam-framing.jpg": {
-    "width": 2400,
-    "height": 1800,
-    "alt": "Pale cream open cell spray foam expanded across a ceiling cavity around timber framing and conduit",
-    "base": "stock-open-cell-foam-framing",
     "sizes": [
       640,
       1024,

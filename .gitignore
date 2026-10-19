@@ -28,3 +28,6 @@ next-env.d.ts
 # local tooling
 .claude/
 .env*
+
+# Client photo drop, kept on disk but out of the repo (large PNG screenshots)
+Christian Photos/
