@@ -6,10 +6,10 @@ import type { SiteConfigInput } from './lib/config-schema'
  * Prose lives in content/*.mdx; design lives in theme.ts and app/fonts.ts.
  */
 const config: SiteConfigInput = {
-  // PLACEHOLDER. Swap in the real Business.slug from the platform before launch:
-  // every lead from this site posts with this value, and a slug that matches no
-  // Business row loses all of them.
-  businessSlug: 'replace-before-launch',
+  // The live Business.slug from the platform. Every lead from this site posts
+  // with this value, and a slug that matches no Business row loses all of them,
+  // so it is never an env var and never edited without checking Neon.
+  businessSlug: 'cowboysprayfoam-1792516209271',
 
   legalName: 'Cowboy Spray Foam LLC',
   displayName: 'Cowboy Spray Foam',

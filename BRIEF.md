@@ -20,7 +20,7 @@ Anything not in this brief does not appear on the site. Facts marked [intake] ca
 
 ## Platform
 
-- businessSlug: `replace-before-launch` (placeholder; the human swaps in the real platform slug after the client signs up).
+- businessSlug: `cowboysprayfoam-1792516209271` (set 2026-10-21, matched against the live Business row in Neon).
 - Domain: `https://www.cowboysprayfoam.com`. The owner does not own a domain and wrote "CowboySprayFoam" as the name he wants [intake]; the human registers it. The site deploys first on a Vercel URL with prelaunch: true and the domain attaches at launch. www is primary; the apex redirects to www.
 
 ## Contact
@@ -155,7 +155,7 @@ Filled by section 3 of the build prompt. Stock only. Hero and service images fro
 
 ## UNKNOWN (each becomes null or is left out; this is the list to chase)
 
-- Real platform businessSlug (placeholder in use)
+- ~~Real platform businessSlug~~ RESOLVED: `cowboysprayfoam-1792516209271` is set in site.config.ts.
 - Owner's name
 - Which days he works (hours given as 9 to 5, days not stated)
 - Warranty scope: material, workmanship, or both; any exclusions

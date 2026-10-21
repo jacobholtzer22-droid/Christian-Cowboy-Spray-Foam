@@ -13,7 +13,7 @@ rather than filling it. One line each, no answers.
 
 ## Before the site can go live
 
-- What is the real platform business slug? The contact form currently posts with a placeholder and no lead would reach you.
+- ~~What is the real platform business slug?~~ Answered. The form posts with the live slug, so leads reach the platform.
 - Do you want to register cowboysprayfoam.com, or a different domain?
 - Do you have the logo from the truck as a transparent PNG or SVG? We can see the cowboy hat mark on the box truck in your photos, but a photo of a truck is not usable as a site logo. The header shows the name as text until that file arrives.
 
