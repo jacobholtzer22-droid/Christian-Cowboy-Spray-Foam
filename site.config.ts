@@ -271,7 +271,7 @@ const config: SiteConfigInput = {
     },
   ],
 
-  prelaunch: true,
+  prelaunch: false,
 
   offer: {
     headline: 'Free Insulation Inspection',
