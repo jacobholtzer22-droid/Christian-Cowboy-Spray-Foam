@@ -514,7 +514,7 @@ const config: SiteConfigInput = {
     submitLabel: 'Request My Free Estimate',
   },
 
-  domain: 'https://www.cowboysprayfoam.com',
+  domain: 'https://www.cowboysprayfoamllc.com',
 }
 
 export default config
