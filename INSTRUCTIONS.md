@@ -1,1 +1,10 @@
-Two changes, nothing else. (1) Set the site's domain / canonical host in site.config.ts to https://www.cowboysprayfoamllc.com so every canonical, sitemap and og URL is on that host and none on www.cowboysprayfoam.com. (2) Add Google tag support the way AA-Template does it: the gtag loader for AW-18527362419 in the layout; a form conversion fired on a successful contact submit (gtag event conversion, send_to AW-18527362419/ZLcxCKHI2bAdEPO6xIJF) that does NOT modify the sealed ContactForm component (hook it from outside, e.g. listening for the success state/event the form already exposes, or a wrapper); a call conversion fired on tel: link clicks (send_to AW-18527362419/0s00CP2x7bUdEPO6xIJF). Put the AW id and both labels in site.config.ts in the tracking block (googleAdsId, conversions.form = AW-18527362419/ZLcxCKHI2bAdEPO6xIJF, conversions.call = AW-18527362419/0s00CP2x7bUdEPO6xIJF), not hard-coded in components. If the schema or template lacks tracking support, add it (schema, layout loader, click/submit handlers) rather than stopping. Do not touch the sealed contact form endpoint, the honeypot, the ContactForm.tsx checksum, or launch.indexable. npm run verify must pass.
+Tracking install. Write this tracking block into site.config.ts as the `tracking` key, exactly as given, and change nothing else (AGENT.md, CI mode, Tracking installs):
+
+```ts
+tracking: {
+  googleAdsId: 'AW-18527362419',
+  conversions: { form: 'AW-18527362419/ZLcxCKHI2bAdEPO6xIJF', call: 'AW-18527362419/0s00CP2x7bUdEPO6xIJF' },
+},
+```
+
+Then run the gate: check 22 must pass.
