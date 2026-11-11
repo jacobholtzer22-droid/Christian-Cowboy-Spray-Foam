@@ -2,6 +2,8 @@
 
 **Status: NO CHANGE MADE, needs a template decision. The gate is green, 19/19. The Google tag is already live with exactly the values requested.**
 
+**This is a repeat dispatch (2026-11-11).** INSTRUCTIONS.md is identical to the one PR #4 answered, and the repo has not changed since: `lib/config-schema.ts` still has no `tracking` key, and `scripts/verify.ts` still stops at check 19. I tried the literal edit again. `npx tsc --noEmit` failed with the same error (now at `site.config.ts(518,3)`), so I reverted it. Sending this instruction again will give the same result until a human syncs the template files listed under item 8. Check 22 cannot pass in a repo that has no check 22.
+
 INSTRUCTIONS.md asked for the tracking block to be written into `site.config.ts` as the `tracking` key on the config object, and for check 22 to pass. I could not do that literally in this repo, so I changed nothing. Two reasons:
 
 1. **The schema here has no `tracking` key.** `lib/config-schema.ts` is `.strict()` and does not define `tracking`. I tried adding the block exactly as given, and `npx tsc --noEmit` failed: `site.config.ts(519,3): error TS2353: Object literal may only specify known properties, and 'tracking' does not exist in type ...`. Check 1 (config parses against schema) would fail the same way. In CI I may not edit `lib/config-schema.ts`, so I reverted the edit.
