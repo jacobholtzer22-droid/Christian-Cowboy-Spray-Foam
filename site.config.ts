@@ -514,7 +514,21 @@ const config: SiteConfigInput = {
     submitLabel: 'Request My Free Estimate',
   },
 
-  domain: 'https://www.cowboysprayfoam.com',
+  domain: 'https://www.cowboysprayfoamllc.com',
 }
 
 export default config
+
+/**
+ * Google tag (Google Ads). Validated by lib/tracking.ts and rendered by
+ * components/GoogleTag.tsx: the gtag loader in the layout, a conversion on a
+ * successful contact form submit, and a conversion on every tel: link click.
+ *
+ * A named export rather than a key on `config`, because lib/config-schema.ts is
+ * strict and is not edited per client; scripts/verify.ts parses the default
+ * export only. Set to null to take the tag off the site.
+ */
+export const tracking = {
+  googleAdsId: 'AW-18527362419',
+  conversions: { form: 'AW-18527362419/ZLcxCKHI2bAdEPO6xIJF', call: 'AW-18527362419/0s00CP2x7bUdEPO6xIJF' },
+}
