@@ -2,7 +2,9 @@
 
 **Status: NO CHANGE MADE, needs a template decision. The gate is green, 19/19. The Google tag is already live with exactly the values requested.**
 
-**This is a repeat dispatch (2026-11-11).** INSTRUCTIONS.md is identical to the one PR #4 answered, and the repo has not changed since: `lib/config-schema.ts` still has no `tracking` key, and `scripts/verify.ts` still stops at check 19. I tried the literal edit again. `npx tsc --noEmit` failed with the same error (now at `site.config.ts(518,3)`), so I reverted it. Sending this instruction again will give the same result until a human syncs the template files listed under item 8. Check 22 cannot pass in a repo that has no check 22.
+**This is the third identical dispatch (2026-11-16; earlier ones were answered by PR #4 and PR #5).** Nothing has changed: `lib/config-schema.ts` still has no `tracking` key and `scripts/verify.ts` still stops at check 19. I tried the literal edit again on 2026-11-16. `npx tsc --noEmit` failed with the same TS2353 error at `site.config.ts(519,3)`, so I reverted it. The build is green, the gate is 19/19, and `out/index.html` still loads `gtag/js?id=AW-18527362419`. **Please stop re-dispatching this instruction until the template sync in item 8 is done. Every repeat will give the same result.**
+
+**Earlier note (2026-11-11 re-dispatch).** INSTRUCTIONS.md is identical to the one PR #4 answered, and the repo has not changed since: `lib/config-schema.ts` still has no `tracking` key, and `scripts/verify.ts` still stops at check 19. I tried the literal edit again. `npx tsc --noEmit` failed with the same error (now at `site.config.ts(518,3)`), so I reverted it. Sending this instruction again will give the same result until a human syncs the template files listed under item 8. Check 22 cannot pass in a repo that has no check 22.
 
 INSTRUCTIONS.md asked for the tracking block to be written into `site.config.ts` as the `tracking` key on the config object, and for check 22 to pass. I could not do that literally in this repo, so I changed nothing. Two reasons:
 
